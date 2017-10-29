@@ -23,5 +23,13 @@ Para usar este repositório basta usar os seguintes comandos :
 7º git push origin - usa origin no caso de estares no branch master. Na situação de não estares no branch certo, verifica com um git status ou git tree 
 
 %Actualizar o teu repositório 
-8º git pull 
+8º git pull
+
+-Para aprenderes mais um pouco sobre git vê : 
+http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+e/ou
+http://rogerdudler.github.io/git-guide/ 
  
+
+Abraço,
+do tio Bruno.
