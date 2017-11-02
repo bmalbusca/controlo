@@ -1,6 +1,9 @@
 # controlo 2017/2018
 
+
 Para usar este repositório basta usar os seguintes comandos (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS) : 
+
+%Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10  ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
 
 %Para começar, tens que fazer o link entre repositórios, Local e Cloud.
 
@@ -16,17 +19,26 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
 
 4º  git status - Dá-te a informação sobre os ficheiros e pastas existentes no repositório local
 
-4.1º - git tree - mostra-te o workflow , mas pr'a isso tns que instalar a feature
+-------------------------------------------------------------------------
+
+4.1º - git tree - mostra-te o workflow , mas pr'a isso tens que instalar a feature : https://stackoverflow.com/questions/1064361/unable-to-show-a-git-tree-in-terminal
+
+-------------------------------------------------------------------------
 
 %Adicionar ficheiros e pastas ao teu repositório
 
 
 5º git add <nomedoficheiro> - Adicionar um ficheiro ou uma pasta ( mas não adiciona o que está dentro da pasta)
 
+-------------------------------------------------------------------------
+
 5.1º git add . - Adiciona tudo
 
 5.2º git add* <nomedapasta> - Adicona pasta com ficheiros dentro
 
+5.3º git add -u - Adiciona todos os ficheiros modificados e eliminados
+
+--------------------------------------------------------------------------
 
 6º git commit -m 'escreve o teu update' - comentário de status
 
