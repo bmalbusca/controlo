@@ -28,13 +28,13 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
 %Adicionar ficheiros e pastas ao teu repositório
 
 
-5º git add <nomedoficheiro> - Adicionar um ficheiro ou uma pasta ( mas não adiciona o que está dentro da pasta)
+5º git add nomedoficheiro - Adicionar um ficheiro ou uma pasta ( mas não adiciona o que está dentro da pasta)
 
 -------------------------------------------------------------------------
 
 5.1º git add . - Adiciona tudo
 
-5.2º git add* <nomedapasta> - Adicona pasta com ficheiros dentro
+5.2º git add* nomedapasta - Adicona pasta com ficheiros dentro
 
 5.3º git add -u - Adiciona todos os ficheiros modificados e eliminados
 
