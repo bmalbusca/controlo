@@ -20,4 +20,15 @@ polesp = pole(sys)  %Discover the poles
 end
 
 
-[k,poles] = rlocfind(sys)
+% [k,poles] = rlocfind(sys)   %find the poles with the cursor
+
+
+%% Q6.3 
+
+figure(102);
+[t,x, y]= sim('parte63');        %Simulation simulink model 
+plot(t , y, ' .-' )
+title('Simulation simulink model')
+xlabel('x-axis')                 %Legends
+ylabel('y-axis')
+legend('Response with d(t) = 0')
