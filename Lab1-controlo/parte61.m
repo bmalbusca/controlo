@@ -1,12 +1,12 @@
 %% Q6.1
 
-KI = [ 1 20 50 100 500 1000 1000000] % value for the KI, and KI > 0
+KI = [ 1 20 50 100 500 1000 0.055] % value for the KI, and KI > 0
 
 for  n = 1:7
 
 s = tf('s');
 
-sys =  (0.002 * KI(n))/((s^3 + s^2 + 0.001*s) + 0.002*KI(n))
+sys =  (0.002 * KI(n))/((s^3 + 0.11*s^2 + 0.001*s) + 0.002*KI(n))
 
 
 figure(100);
@@ -22,13 +22,3 @@ end
 
 % [k,poles] = rlocfind(sys)   %find the poles with the cursor
 
-
-%% Q6.3 
-
-figure(102);
-[t,x, y]= sim('parte63');        %Simulation simulink model 
-plot(t , y, ' .-' )
-title('Simulation simulink model')
-xlabel('x-axis')                 %Legends
-ylabel('y-axis')
-legend('Response with d(t) = 0')
